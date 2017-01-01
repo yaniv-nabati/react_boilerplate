@@ -1,0 +1,10 @@
+@import "../../styles/vars.scss";
+
+footer {
+	height: $footer-height;
+	line-height: $footer-height;
+	color: $color-primary;
+	background-color: $color-gray;
+	flex-basis: $footer-height;
+	text-align: center;
+}

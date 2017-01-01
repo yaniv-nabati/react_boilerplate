@@ -1,0 +1,14 @@
+@import "../../styles/vars";
+
+#home {
+	.scroll-wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.alert-icon {
+			width: 300px;
+			margin: auto;
+		}
+	}
+}

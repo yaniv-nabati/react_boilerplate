@@ -1,0 +1,18 @@
+.scroll {
+	position: relative;
+	flex-grow: 1;
+
+	.scroll-container {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		overflow-y: auto;
+
+		.scroll-wrapper {
+			padding: 30px;
+			min-height: 100%;
+		}
+	}
+}
